@@ -185,6 +185,9 @@ ydn.db.algo.AbstractSolver.prototype.solver = function(input, output) {
   return [];
 };
 
+ydn.db.algo.AbstractSolver.prototype.unusedFunction = function(input, output) {
+  return [];
+};
 
 /**
  * Invoke at the end of the iteration process.
