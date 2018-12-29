@@ -35,6 +35,7 @@ var unusedVariable;
  * @constructor
  */
 ydn.db.algo.AbstractSolver = function(opt_out, opt_limit) {
+  console.log(undefinedVariable)
   if (goog.DEBUG && goog.isDefAndNotNull(opt_out) && !('push' in opt_out)) {
     throw new ydn.error.ArgumentException('output receiver object must have ' +
         '"push" method.');
