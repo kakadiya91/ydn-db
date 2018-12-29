@@ -24,7 +24,7 @@ goog.require('goog.log');
 goog.require('ydn.db');
 goog.require('ydn.db.Streamer');
 
-
+var unusedVariable;
 
 /**
  * Abstract join algorithm.
